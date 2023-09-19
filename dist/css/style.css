@@ -1,0 +1,21 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  max-width: 80%;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.galeria .carousel {
+  display: flex;
+  overflow: hidden;
+}
+.galeria .carousel img {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+.galeria .carousel img:hover {
+  transform: scale(1.2);
+}

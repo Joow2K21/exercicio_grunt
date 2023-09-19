@@ -1,0 +1,11 @@
+{
+  "name": "projeto-galeria",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-imagemin": "^2.0.1", 
+    "grunt-contrib-uglify": "^5.0.1"
+  }
+}
